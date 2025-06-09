@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4ff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.app {
+  max-width: 400px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0;
+}
