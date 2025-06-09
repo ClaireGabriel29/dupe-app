@@ -32,4 +32,12 @@ function checkAnswer() {
     document.getElementById("feedback").textContent = "✅ Correct!";
     score++;
   } else {
-    document.getElementById("feedback").textContent = `❌ Wrong
+    document.getElementById("feedback").textContent = `❌ Wrong. Correct: ${questions[currentIndex].dutch}`;
+  }
+
+  currentIndex++;
+  setTimeout(showQuestion, 1000);
+}
+
+// Start the app
+showQuestion();
