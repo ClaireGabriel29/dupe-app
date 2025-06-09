@@ -2,20 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mini Language Quiz</title>
+  <title>Mini Dutch Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="app">
-    <h1>English → Spanish</h1>
+    <h1>English → Dutch</h1>
+    
     <div id="question-container">
-      <p id="question"></p>
-      <input type="text" id="answer" placeholder="Type your answer" />
+      <p id="question">Loading...</p>
+      <input type="text" id="answer" placeholder="Type your Dutch translation" autocomplete="off" />
       <button onclick="checkAnswer()">Submit</button>
       <p id="feedback"></p>
     </div>
+
     <p id="score"></p>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
